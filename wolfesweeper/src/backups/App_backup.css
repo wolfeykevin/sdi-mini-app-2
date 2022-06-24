@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.container {
+  background-color: rgba(41, 37, 37, 0.753);
+  height: 750px;
+  width: 575px;
+  margin-bottom: -715px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.title{
+  color: white;
+  font-size: 44px;
+  font-family: 'Fjalla One', sans-serif;
+}
+.subtitle {
+  color: orangered;
+  font-style: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.generate {
+  width: 150px;
+  height: 50px;
+  border: 2px solid white;
+  background: orange;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 25px;
+  border-radius: 10px;
+  transition-duration: 0.25s;
+  cursor: pointer;
+}
+
+.generate:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url(../src/BlurredSweeper.jpg);
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
